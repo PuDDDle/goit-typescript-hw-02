@@ -12,7 +12,7 @@ const fetchImages = async (
     page,
     per_page: 9,
     orientation: "landscape",
-    client_id: import.meta.env.VITE_ACCESS_KEY as string,
+    client_id: "3tEbJ6gy6PBIJgJlTqoK5DaGgsTzVT1rupGKZaOPW0k",
   };
 
   const res = await axios.get<FetchImagesResponse>("/search/photos", {
